@@ -1,0 +1,19 @@
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #b3a17c;
+}
+
+
+
+.navbar-buttons{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    
+}
