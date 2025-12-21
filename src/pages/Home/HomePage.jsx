@@ -1,9 +1,11 @@
+import HeroBanner from "./components/HeroBanner";
 
 
 export default function HomePage() {
     return (
         <div>
-            This is the Home Page
+            <HeroBanner />
+            
             
         </div>
     )
