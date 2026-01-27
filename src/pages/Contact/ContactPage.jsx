@@ -1,10 +1,10 @@
-
+import signupForm from './components/SignupForm';
 
 
 export default function ContactPage() {
     return (
         <div>
-            This is the Contact Page
+            <signupForm/>
         </div>
     )
 }

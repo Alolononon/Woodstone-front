@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import AppRoutes from './AppRoutes.jsx'
 import Footer from './components/Footer.jsx'
 import Navbar2 from './components/Navbar2.jsx'
+import WhatsAppButton from './components/WhatsappButton.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <AppRoutes />
         </main>
         <Footer/>
+        <WhatsAppButton/>
 
       </div>
     </BrowserRouter>
