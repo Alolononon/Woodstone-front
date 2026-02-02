@@ -1,14 +1,20 @@
-import HeroBanner from "./components/HeroBanner";
-import TuitionRates from "./components/TuitionRates";
+import React from "react";
 import WelcomeBanner from "./components/WelcomeBanner";
+import AboutBanner from "./components/AboutBanner";
+import ResourcesBanner from "./components/ResourcesBanner";
+import ContactMeBanner from "./components/ContactMeBanner";
 
 
 export default function HomePage() {
+
+
     return (
         <div>
             <WelcomeBanner />
-            <HeroBanner />
-            <TuitionRates />
+            <AboutBanner />
+            <ResourcesBanner />
+            <ContactMeBanner />
+            
             
         </div>
     )

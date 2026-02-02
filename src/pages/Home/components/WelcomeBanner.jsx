@@ -67,14 +67,14 @@ export default function WelcomeBanner() {
 
       {/* Floating feature chips */}
       <div className="absolute inset-0 z-10 pointer-events-none">
-        <div className={`${anim(show2)} absolute left-[45%] top-[13%] hidden md:block`}>
+        <div className={`${anim(show2)} absolute left-[43%] top-[13%] hidden md:block`}>
           <div className="rounded-2xl bg-white/15 px-5 py-3 text-white backdrop-blur shadow-lg">
             <h1 className="text-4xl font-semibold">1-to-1 Tutoring</h1>
             <p className="text-sm text-white/80">Personalized learning experience</p>
           </div>
         </div>
 
-        <div className={`${anim(show3)} absolute left-[45%] top-[35%] hidden md:block`}>
+        <div className={`${anim(show3)} absolute left-[43%] top-[36%] hidden md:block`}>
           <div className="rounded-2xl bg-white/15 px-4 py-3 text-white backdrop-blur shadow-lg">
             <p className="text-4xl font-semibold">Proven Results</p>
             <p className="text-sm text-white/80">Track improvements weekly</p>
@@ -83,13 +83,15 @@ export default function WelcomeBanner() {
 
 
           
-        <div className={`${anim(show4)} absolute left-[45%] top-[58%] hidden md:block`}>
+        <div className={`${anim(show4)} absolute left-[40%] top-[60%] hidden md:block`}>
           <div className="flex items-start gap-3 rounded-2xl bg-white/15 px-4 py-3 text-white backdrop-blur shadow-lg">
             <span className="mt-2 inline-block h-2 w-2 rounded-full bg-green-400" />
             <div className="text-4xl font-semibold leading-tight">
-              Free Trial Lesson
-              <div className="text-center ">Available</div>
+              Free Trial Available!
+              
+              <p className="text-sm text-center">1st class is on Us!</p>
             </div>
+
           </div>
         </div>
 
