@@ -10,7 +10,7 @@ export default function AboutBanner() {
         </h1>
 
         <Link
-          href="/about"
+          to="/about"
           className="inline-block rounded-xl bg-green-400 px-6 py-3 text-base font-medium text-black transition hover:bg-green-300"
         >
           About Us →
