@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AboutBanner() {
   return (
     <section className="w-full bg-neutral-900 py-16 text-white">
@@ -7,12 +9,12 @@ export default function AboutBanner() {
           learning feels natural, built on a strong foundation.
         </h1>
 
-        <a
+        <Link
           href="/about"
           className="inline-block rounded-xl bg-green-400 px-6 py-3 text-base font-medium text-black transition hover:bg-green-300"
         >
           About Us →
-        </a>
+        </Link>
       </div>
     </section>
   );
